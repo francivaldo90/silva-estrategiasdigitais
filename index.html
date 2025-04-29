@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Transforme sua vida com R$19,90</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f9f9f9;
+color: #222;
+line-height: 1.6;
+}
+.container {
+max-width: 700px;
+margin: auto;
+padding: 20px;
+}
+h1 {
+color: #000;
+font-size: 28px;
+margin-bottom: 20px;
+}
+p {
+margin-bottom: 20px;
+font-size: 18px;
+}
+.button {
+display: inline-block;
+background: #28a745;
+color: #fff;
+padding: 15px 25px;
+font-size: 18px;
+border-radius: 5px;
+text-decoration: none;
+transition: background 0.3s ease;
+}
+.button:hover {
+background: #218838;
+}
+.testimonial {
+background: #fff;
+padding: 15px;
+border-left: 4px solid #28a745;
+margin: 20px 0;
+}
+.guarantee {
+margin-top: 40px;
+padding: 20px;
+background: #e0ffe5;
+border-left: 4px solid #28a745;
+}
+.footer {
+text-align: center;
+margin-top: 40px;
+font-size: 14px;
+color: #777;
+}
+.countdown {
+font-size: 20px;
+color: #e63946;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.whatsapp-btn {
+display: inline-block;
+background: #25d366;
+color: #fff;
+padding: 15px 25px;
+font-size: 18px;
+border-radius: 5px;
+text-decoration: none;
+margin-top: 20px;
+width: 100%;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Eu saí do fundo do poço para faturar R$20 mil/mês usando só meu celular</h1>
+
+<p>Eu sei exatamente como é… ver todo mundo avançando, conquistando, enquanto você tá parado, quebrado, olhando pra conta bancária cheia de dígitos negativos.</p>
+<p>O pior é ver gente ganhando dinheiro na internet, no conforto de casa, até dormindo…</p>
+<p>E aí você pensa: Como é que eles conseguem?</p>
+<p>Eu já pensei em desistir tantas vezes… Já achei que não tinha mais saída. Que minha vida ia continuar do mesmo jeito: apertada, sufocada, sem perspectiva.</p>
+<p>Até que um dia, apareceu um curso de <strong>R$19,90</strong>. E eu pensei: <em>"Quer saber? Eu não tenho nada a perder."</em></p>
+<p>Sem dinheiro, sem esperança… só com a vontade de virar o jogo.</p>
+<p>Decidi tentar. E essa decisão mudou a minha vida.</p>
+<p>Hoje, eu faturo mais de <strong>R$20 mil por mês</strong>, direto de casa, com meu celular. E nunca mais olhei pra trás.</p>
+
+<a class="button" href="https://pay.kiwify.com.br/0ohDNfB" target="_blank">Quero começar agora por R$19,90</a>
+
+<!-- Contador de Urgência -->
+<div class="countdown">
+<p>?? Oferta expira em: <span id="countdown"></span></p>
+</div>
+
+<div class="testimonial">
+<p><strong>Depoimento:</strong> “Comprei o curso sem acreditar muito, mas em menos de 30 dias recuperei o valor e muito mais. É real.”</p>
+<p>– Mariana, ex-atendente de loja</p>
+</div>
+
+<div class="guarantee">
+<p><strong>Garantia incondicional de 7 dias!</strong></p>
+<p>Se você não gostar do método, pode pedir seu dinheiro de volta. E ainda te envio R$1.000 no Pix.</p>
+<p>Aqui, meu trabalho é <strong>100% garantido</strong>.</p>
+</div>
+
+<!-- Botão de WhatsApp -->
+<a class="whatsapp-btn" href="https://wa.me/98988962922" target="_blank">Tire suas dúvidas no WhatsApp agora!</a>
+
+<div class="footer">
+© 2025 – Silva Estratégias Digitais. Todos os direitos reservados.
+</div>
+</div>
+
+<script>
+// Contador de Urgência (tempo restante)
+var countdownDate = new Date().getTime() + (2 * 60 * 1000); // Define a contagem para 2 minutos
+var x = setInterval(function() {
+var now = new Date().getTime();
+var distance = countdownDate - now;
+
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("countdown").innerHTML = minutes + "m " + seconds + "s ";
+
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("countdown").innerHTML = "A oferta expirou!";
+}
+}, 1000);
+</script>
+</body>
+</html>
